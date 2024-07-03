@@ -1,0 +1,451 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+/*CSS Reset / Normalize*/
+/* Hemos disponibilizado el básico de reset de estilos. Si quieren, añadan más informaciones 
+en las secciones señaladas */
+/*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
+coloque nas sessões indicadas*/
+
+/* style.css */
+
+/* General styles */
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Menu styles */
+.menu {
+    background-color: #1e1e2f;
+    color: white;
+    padding: 20px;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+}
+
+.menu__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.menu__header img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.menu__title {
+    font-size: 1.5em;
+}
+
+.menu__list {
+    list-style: none;
+    padding: 0;
+}
+
+.menu__list__item {
+    margin: 10px 0;
+}
+
+.menu__list__item a {
+    color: white;
+    font-size: 1em;
+}
+
+.menu__list__item__contato {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    font-size: 0.9em;
+}
+
+.menu__list__item__contato img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+/* Title/hero section */
+.title {
+    margin-left: 270px;
+    padding: 50px;
+    background-color: #1e1e2f;
+    color: white;
+    text-align: center;
+}
+
+.title__div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title__profile {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.title__bio {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.title__subsection {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.title__network {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.title__network__item {
+    margin: 0 10px;
+}
+
+.title__network__item img {
+    width: 20px;
+    margin-left: 5px;
+}
+
+/* About section */
+.about {
+    margin-left: 270px;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.about__container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about__title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about__paragraph {
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+/* Skills section */
+.skills {
+    margin-left: 270px;
+    padding: 50px;
+    background-color: #f4f4f9;
+}
+
+.skills__title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.skills__line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills__box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    /* Center content vertically and horizontally */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.skills__box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills__img img {
+    width: 50px;
+    margin-bottom: 15px;
+    /* Optional: Adjust margin to control spacing between image and text */
+}
+
+.skills__name {
+    font-size: 1em;
+    /* Optional: Add margin-top to separate text from image */
+    margin-top: 10px;
+}
+
+
+/* Hobbies section */
+.hobbies {
+    margin-left: 270px;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.hobbies__title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.hobbies__line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hobbies__box {
+    background-color: #f4f4f9;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hobbies__box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.hobbies__img img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.hobbies__name {
+    font-size: 1em;
+}
+
+/* Academic section */
+.academic {
+    margin-left: 270px;
+    padding: 50px;
+    background-color: #f4f4f9;
+}
+
+.academic__title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.academic__courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.academic__courses__box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.academic__courses__item__img img {
+    width: 150px;
+    height: 125px;
+    margin-bottom: 10px;
+}
+
+.academic__courses__item__title {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.academic__courses__item__subtitle {
+    font-size: 0.9em;
+}
+
+/* Work section */
+.work {
+    margin-left: 270px;
+    padding: 50px;
+    background-color: #f4f4f9;
+}
+
+.work__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.work__box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.work__item__img img {
+    width: 150px;
+    height: 125px;
+    margin-bottom: 10px;
+}
+
+.work__item__title {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.work__item__subtitle {
+    font-size: 0.9em;
+}
+
+
+/* Experience section */
+.experience {
+    margin-left: 270px;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.experience__section__title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.experience__box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.experience__img {
+    margin-top: 100px;
+    width: 100%;
+    max-width: 100%;
+    margin: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.experience__info {
+    text-align: center;
+    margin: 10px;
+}
+
+.experience__title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.experience__description {
+    font-size: 1em;
+}
+
+.experiencia__botao--repo {
+    background-color: #1e1e2f;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.experiencia__botao--repo:hover {
+    background-color: #333;
+}
+
+/* Footer section */
+.footer {
+    margin-left: 10px;
+    padding: 20px;
+    background-color: #1e1e2f;
+    color: white;
+    text-align: center;
+}
+
+.footer__rodape {
+    font-size: 0.9em;
+}
+
+/* Media queries for mobile devices */
+@media (max-width: 768px) {
+    .menu {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .title, .about, .skills, .hobbies, .academic, .work, .experience, .footer {
+        margin-left: 0;
+        padding: 20px;
+    }
+
+    .title__div, .about__container, .skills__line, .hobbies__line, .academic__courses, .work__box, .experience__box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title__network {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills__box, .hobbies__box, .academic__courses__box, .experience__img {
+        width: 90%;
+        margin: 10px 0;
+    }
+}
+
+/* Media queries for tablet devices */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .menu {
+        width: 200px;
+    }
+
+    .title, .about, .skills, .hobbies, .academic, .work, .experience, .footer {
+        margin-left: 220px;
+        padding: 30px;
+    }
+
+    .title__div, .about__container, .skills__line, .hobbies__line, .academic__courses, .work__container, .experience__box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title__network {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .skills__box, .hobbies__box, .academic__courses__box, .work__box .experience__img {
+        width: 45%;
+        margin: 10px 0;
+    }
+}
