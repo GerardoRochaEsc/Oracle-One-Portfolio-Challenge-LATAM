@@ -1,18 +1,17 @@
-# Challenge ONE | Front End -  Portafolio
+# Challenge ONE | Front End - Portfolio
 
-<p align="center" >
-     <img width="600" height="600" src="[https://user-images.githubusercontent.com/101413385/169097543-d5ada41e-7db8-481d-9d89-cef4efdf7e05.png](https://github.com/GerardoRochaEsc/Oracle-One-Portfolio-Challenge-LATAM/blob/main/challenge-one-portafolio-latam/assets/page_Gerardo_Rocha.png)">
+<p align="center">
+     <img src="https://raw.githubusercontent.com/GerardoRochaEsc/Oracle-One-Portfolio-Challenge-LATAM/main/challenge-one-portafolio-latam/assets/page_Gerardo_Rocha.png" alt="Gerardo Rocha's Portfolio">
 </p>
 
-
-### ¡Bienvenido al proyecto base del Portafolio ! Pasos principales:
+### Welcome to the Portfolio base project! Main steps:
 ---
-#### Marca este proyecto con una estrella ⭐
-#### Sigue las lecciones y las instrucciones de contenido 📚
+#### Star this project ⭐
+#### Follow the lessons and content instructions 📚
 
-### Analisando el repositorio!
+### Analyzing the repository!
 ---
-### Este es el repositorio base de nuestro proyecto, acá tendrás:
-#### 🔹index.html: Documento HTML concluído que puedes utilizar en tu proyecto. Las fuentes, los archivos CSS y Javascript ya están referenciados en el documento y todas las secciones contienen comentários que te ayudan a entender la estructura. Si quieres, puedes aventurarte y contruir tu propio HTML.
-#### 🔹style.css: Documento de CSS con instrucciones de estilo y algunas sugerencias de desarrollo.
+### This is the base repository of our project, where you will find:
+#### 🔹index.html: Completed HTML document that you can use in your project. The fonts, CSS, and JavaScript files are already referenced in the document, and all sections contain comments to help you understand the structure. Feel free to venture and build your own HTML if you wish.
+#### 🔹style.css: CSS document with styling instructions and some development suggestions.
 
